@@ -1,0 +1,111 @@
+body {
+	background: #444;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 62.5%;
+	line-height: 1.4em;
+	margin-top: 1rem;
+}
+
+article {
+	position: relative;
+	margin: auto;
+	width: 1020px;
+	padding: 20px;
+	background: white;
+	box-shadow: 10px 10px 10px #333;
+	-webkit-column-rule: 1px solid #333;
+	-moz-column-rule: 1px solid #333;
+	-o-column-rule: 1px solid #333;
+	-ms-column-rule: 1px solid #333;
+	column-rule: 1px solid #333;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-ms-column-count: 2;
+	-o-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	-o-column-gap: 1em;
+	-ms-column-gap: 1em;
+	column-gap: 1em;
+}
+
+article p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
+img {
+	max-width: 15rem;
+	max-height: 15rem;
+	
+	/* -webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(1);
+	filter: url(grayscale.svg); */
+	/* filter: gray; */
+
+}
+.thumb{
+	display: flex;
+}
+.thumb img{
+	padding: 15px;
+	border: 1px solid #333;
+}
+.card{
+	padding: 5px;
+}
+article header {
+	position: relative;
+	display: block;
+	-webkit-column-span: all;
+	-moz-column-span: all;
+	-o-column-span: all;
+	-ms-column-span: all;
+	column-span: all;
+	border-bottom: 2px solid #333;
+
+}
+
+article header h1 {
+	font-size: 8em;
+	line-height: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+article header h2 {
+	font-size: 2em;
+	line-height: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+article header h4 {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+article aside {
+	position: relative;
+	text-align: center;
+	display: block;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	font-style: italic;
+	-webkit-column-span: all;
+	-moz-column-span: all;
+	-o-column-span: all;
+	-ms-column-span: all;
+	column-span: all;
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+	margin-top: 20px;
+}
